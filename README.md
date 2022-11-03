@@ -1,6 +1,6 @@
 # MF_MODEL
 Before run **preprocess.py** you need to make sure your data follow the above format:  
->data  
+>*_data  
   >>patient_name  
   >>>patient1_LOW_ENERGY_CC_R.dcm     
   patient1_RECOMBINED_CC_R.dcm  
