@@ -14,12 +14,12 @@ before run **preprocess.py** you need to make sure your data follow the above fo
 **Note:** The DICOM files were renamed in order to match the corresponding names in excel  
 
  
-     run **preprocess.py** to get the cropped, normalized images and saved as h5py.  
+     run preprocess.py to get the cropped, normalized images and saved as h5py.  
      
-     run **train_fusion(concat).py** to train  
+     run train_fusion(concat).py to train  
      
-     run **test(concat).py** to test the performance  
+     run test(concat).py to test the performance  
       
-*Required Libraries:  
+**Required Libraries:  
  
      os, cv2, math, numpy, glob, h5py, skimage, pydicom, xlrd, torch, PIL, datetime, torchvision, matplotlib.
