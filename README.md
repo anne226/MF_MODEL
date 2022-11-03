@@ -1,5 +1,5 @@
 # MF_MODEL
-before run preprocess.py you need to make sure your data follow the above format:  
+before run **preprocess.py** you need to make sure your data follow the above format:  
 >data  
   >>patient_name  
   >>>patient1_LOW_ENERGY_CC_R.dcm     
@@ -14,9 +14,9 @@ before run preprocess.py you need to make sure your data follow the above format
 **Note:** The DICOM files were renamed in order to match the corresponding names in excel  
 
 
-run preprocess.py to get the cropped, normalized images and saved as h5py.  
-run train_fusion(concat).py to train  
-run test(concat).py to test the performance  
+run **preprocess.py** to get the cropped, normalized images and saved as h5py.  
+run **train_fusion(concat).py** to train  
+run **test(concat).py** to test the performance  
 
 *Required Libraries:  
  
