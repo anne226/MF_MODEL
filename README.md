@@ -20,6 +20,6 @@ before run **preprocess.py** you need to make sure your data follow the above fo
      
      run test(concat).py to test the performance  
       
-** Required Libraries:  
+**Required Libraries** :  
  
      os, cv2, math, numpy, glob, h5py, skimage, pydicom, xlrd, torch, PIL, datetime, torchvision, matplotlib.
