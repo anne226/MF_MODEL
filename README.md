@@ -15,7 +15,7 @@ Before run **preprocess.py** you need to make sure your data follow the above fo
 
      run preprocess.py to get the cropped, normalized images and saved as h5py.  
      
-     run train_fusion(concat).py to train  
+     run train_fusion(concat).py to train  #We only provide the final code, if you want to reach a better performance, pre-trained weights can be used.
      
      run test(concat).py to test the performance  
       
